@@ -1,0 +1,312 @@
+[
+  {
+    "ContainingType": "PracticaProgramada3Grupo7.API.Controllers.PartidosPoliticosController",
+    "Method": "ObtenerTodos",
+    "RelativePath": "api/PartidosPoliticos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PracticaProgramada3Grupo7.BLL.Dtos.PartidoPoliticoDto, PracticaProgramada3Grupo7.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PracticaProgramada3Grupo7.API.Controllers.PartidosPoliticosController",
+    "Method": "Agregar",
+    "RelativePath": "api/PartidosPoliticos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "partidoDto",
+        "Type": "PracticaProgramada3Grupo7.BLL.Dtos.PartidoPoliticoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PracticaProgramada3Grupo7.BLL.Dtos.PartidoPoliticoDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PracticaProgramada3Grupo7.API.Controllers.PartidosPoliticosController",
+    "Method": "ObtenerPorId",
+    "RelativePath": "api/PartidosPoliticos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PracticaProgramada3Grupo7.BLL.Dtos.PartidoPoliticoDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PracticaProgramada3Grupo7.API.Controllers.PartidosPoliticosController",
+    "Method": "Actualizar",
+    "RelativePath": "api/PartidosPoliticos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "partidoDto",
+        "Type": "PracticaProgramada3Grupo7.BLL.Dtos.PartidoPoliticoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PracticaProgramada3Grupo7.API.Controllers.PartidosPoliticosController",
+    "Method": "Eliminar",
+    "RelativePath": "api/PartidosPoliticos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PracticaProgramada3Grupo7.API.Controllers.PartidosPoliticosController",
+    "Method": "ObtenerActivos",
+    "RelativePath": "api/PartidosPoliticos/activos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PracticaProgramada3Grupo7.BLL.Dtos.PartidoPoliticoDto, PracticaProgramada3Grupo7.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PracticaProgramada3Grupo7.API.Controllers.VotacionController",
+    "Method": "RegistrarVoto",
+    "RelativePath": "api/Votacion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registrarVotoDto",
+        "Type": "PracticaProgramada3Grupo7.BLL.Dtos.RegistrarVotoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PracticaProgramada3Grupo7.BLL.Dtos.RespuestaVotoDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PracticaProgramada3Grupo7.API.Controllers.VotacionController",
+    "Method": "ObtenerResultados",
+    "RelativePath": "api/Votacion/resultados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PracticaProgramada3Grupo7.BLL.Dtos.ResultadoVotacionDto, PracticaProgramada3Grupo7.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PracticaProgramada3Grupo7.API.Controllers.VotantesController",
+    "Method": "ObtenerTodos",
+    "RelativePath": "api/Votantes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PracticaProgramada3Grupo7.BLL.Dtos.VotanteDto, PracticaProgramada3Grupo7.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PracticaProgramada3Grupo7.API.Controllers.VotantesController",
+    "Method": "Agregar",
+    "RelativePath": "api/Votantes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "votanteDto",
+        "Type": "PracticaProgramada3Grupo7.BLL.Dtos.VotanteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PracticaProgramada3Grupo7.BLL.Dtos.VotanteDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PracticaProgramada3Grupo7.API.Controllers.VotantesController",
+    "Method": "ObtenerPorId",
+    "RelativePath": "api/Votantes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PracticaProgramada3Grupo7.BLL.Dtos.VotanteDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PracticaProgramada3Grupo7.API.Controllers.VotantesController",
+    "Method": "Actualizar",
+    "RelativePath": "api/Votantes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "votanteDto",
+        "Type": "PracticaProgramada3Grupo7.BLL.Dtos.VotanteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PracticaProgramada3Grupo7.API.Controllers.VotantesController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Votantes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PracticaProgramada3Grupo7.API.Controllers.VotantesController",
+    "Method": "ObtenerPorCedula",
+    "RelativePath": "api/Votantes/cedula/{cedula}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cedula",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PracticaProgramada3Grupo7.BLL.Dtos.VotanteDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

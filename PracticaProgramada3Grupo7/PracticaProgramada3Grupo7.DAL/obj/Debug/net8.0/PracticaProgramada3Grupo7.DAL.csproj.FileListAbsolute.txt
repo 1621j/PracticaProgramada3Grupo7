@@ -1,0 +1,14 @@
+C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.DAL\bin\Debug\net8.0\PracticaProgramada3Grupo7.DAL.deps.json
+C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.DAL\bin\Debug\net8.0\PracticaProgramada3Grupo7.DAL.runtimeconfig.json
+C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.DAL\bin\Debug\net8.0\PracticaProgramada3Grupo7.DAL.dll
+C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.DAL\bin\Debug\net8.0\PracticaProgramada3Grupo7.DAL.pdb
+C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.DAL\obj\Debug\net8.0\PracticaProgramada3Grupo7.DAL.csproj.AssemblyReference.cache
+C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.DAL\obj\Debug\net8.0\PracticaProgramada3Grupo7.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.DAL\obj\Debug\net8.0\PracticaProgramada3Grupo7.DAL.AssemblyInfoInputs.cache
+C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.DAL\obj\Debug\net8.0\PracticaProgramada3Grupo7.DAL.AssemblyInfo.cs
+C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.DAL\obj\Debug\net8.0\PracticaProgramada3Grupo7.DAL.csproj.CoreCompileInputs.cache
+C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.DAL\obj\Debug\net8.0\PracticaProgramada3Grupo7.DAL.dll
+C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.DAL\obj\Debug\net8.0\refint\PracticaProgramada3Grupo7.DAL.dll
+C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.DAL\obj\Debug\net8.0\PracticaProgramada3Grupo7.DAL.pdb
+C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.DAL\obj\Debug\net8.0\PracticaProgramada3Grupo7.DAL.genruntimeconfig.cache
+C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.DAL\obj\Debug\net8.0\ref\PracticaProgramada3Grupo7.DAL.dll

@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Progra Avanzada\\PracticaProgramada3Grupo7\\PracticaProgramada3Grupo7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Progra Avanzada\\PracticaProgramada3Grupo7\\PracticaProgramada3Grupo7\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964A10D9-9264-47FA-BBD1-750C4372C0CF}|PracticaProgramada3Grupo7.API\\PracticaProgramada3Grupo7.API.csproj|c:\\progra avanzada\\practicaprogramada3grupo7\\practicaprogramada3grupo7\\practicaprogramada3grupo7.api\\controllers\\votacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964A10D9-9264-47FA-BBD1-750C4372C0CF}|PracticaProgramada3Grupo7.API\\PracticaProgramada3Grupo7.API.csproj|solutionrelative:practicaprogramada3grupo7.api\\controllers\\votacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964A10D9-9264-47FA-BBD1-750C4372C0CF}|PracticaProgramada3Grupo7.API\\PracticaProgramada3Grupo7.API.csproj|c:\\progra avanzada\\practicaprogramada3grupo7\\practicaprogramada3grupo7\\practicaprogramada3grupo7.api\\controllers\\partidospoliticoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964A10D9-9264-47FA-BBD1-750C4372C0CF}|PracticaProgramada3Grupo7.API\\PracticaProgramada3Grupo7.API.csproj|solutionrelative:practicaprogramada3grupo7.api\\controllers\\partidospoliticoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{964A10D9-9264-47FA-BBD1-750C4372C0CF}|PracticaProgramada3Grupo7.API\\PracticaProgramada3Grupo7.API.csproj|c:\\progra avanzada\\practicaprogramada3grupo7\\practicaprogramada3grupo7\\practicaprogramada3grupo7.api\\controllers\\votantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{964A10D9-9264-47FA-BBD1-750C4372C0CF}|PracticaProgramada3Grupo7.API\\PracticaProgramada3Grupo7.API.csproj|solutionrelative:practicaprogramada3grupo7.api\\controllers\\votantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Progra Avanzada\\PracticaProgramada3Grupo7\\PracticaProgramada3Grupo7\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Progra Avanzada\\PracticaProgramada3Grupo7\\PracticaProgramada3Grupo7\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-25T18:51:17.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VotacionController.cs",
+              "DocumentMoniker": "C:\\Progra Avanzada\\PracticaProgramada3Grupo7\\PracticaProgramada3Grupo7\\PracticaProgramada3Grupo7.API\\Controllers\\VotacionController.cs",
+              "RelativeDocumentMoniker": "PracticaProgramada3Grupo7.API\\Controllers\\VotacionController.cs",
+              "ToolTip": "C:\\Progra Avanzada\\PracticaProgramada3Grupo7\\PracticaProgramada3Grupo7\\PracticaProgramada3Grupo7.API\\Controllers\\VotacionController.cs",
+              "RelativeToolTip": "PracticaProgramada3Grupo7.API\\Controllers\\VotacionController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T18:27:08.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PartidosPoliticosController.cs",
+              "DocumentMoniker": "C:\\Progra Avanzada\\PracticaProgramada3Grupo7\\PracticaProgramada3Grupo7\\PracticaProgramada3Grupo7.API\\Controllers\\PartidosPoliticosController.cs",
+              "RelativeDocumentMoniker": "PracticaProgramada3Grupo7.API\\Controllers\\PartidosPoliticosController.cs",
+              "ToolTip": "C:\\Progra Avanzada\\PracticaProgramada3Grupo7\\PracticaProgramada3Grupo7\\PracticaProgramada3Grupo7.API\\Controllers\\PartidosPoliticosController.cs",
+              "RelativeToolTip": "PracticaProgramada3Grupo7.API\\Controllers\\PartidosPoliticosController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAuwHwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T18:22:49.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VotantesController.cs",
+              "DocumentMoniker": "C:\\Progra Avanzada\\PracticaProgramada3Grupo7\\PracticaProgramada3Grupo7\\PracticaProgramada3Grupo7.API\\Controllers\\VotantesController.cs",
+              "RelativeDocumentMoniker": "PracticaProgramada3Grupo7.API\\Controllers\\VotantesController.cs",
+              "ToolTip": "C:\\Progra Avanzada\\PracticaProgramada3Grupo7\\PracticaProgramada3Grupo7\\PracticaProgramada3Grupo7.API\\Controllers\\VotantesController.cs",
+              "RelativeToolTip": "PracticaProgramada3Grupo7.API\\Controllers\\VotantesController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAuwG0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T18:22:27.437Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
