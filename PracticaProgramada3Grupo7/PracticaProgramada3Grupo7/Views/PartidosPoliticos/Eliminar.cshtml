@@ -1,0 +1,78 @@
+@model PracticaProgramada3Grupo7.Models.PartidoPoliticoViewModel
+
+@{
+    ViewData["Title"] = "Eliminar partido";
+}
+
+<div class="form-page">
+
+    <div class="form-card delete-card">
+
+        <span class="page-eyebrow">
+            Confirmación
+        </span>
+
+        <h1>Eliminar partido</h1>
+
+        <p>
+            ¿Está segura de que desea eliminar este partido político?
+        </p>
+
+        <div class="delete-summary party-delete-summary">
+
+            <span class="party-acronym party-acronym-large">
+                @Model.Siglas
+            </span>
+
+            <strong>
+                @Model.Nombre
+            </strong>
+
+            <span>
+                Candidato: @Model.Candidato
+            </span>
+
+            @if (!string.IsNullOrWhiteSpace(Model.Descripcion))
+            {
+            <span>
+                @Model.Descripcion
+            </span>
+            }
+
+        </div>
+
+        <div class="alert alert-warning mt-4">
+            Si el partido ya tiene votos registrados,
+            el sistema no permitirá eliminarlo.
+        </div>
+
+        <form asp-controller="PartidosPoliticos"
+              asp-action="Eliminar"
+              asp-route-id="@Model.Id"
+              method="post">
+
+            @Html.AntiForgeryToken()
+
+            <input asp-for="Id"
+                   type="hidden" />
+
+            <div class="form-actions">
+
+                <a asp-controller="PartidosPoliticos"
+                   asp-action="Index"
+                   class="btn btn-light">
+                    Cancelar
+                </a>
+
+                <button type="submit"
+                        class="btn btn-danger">
+                    Sí, eliminar
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>

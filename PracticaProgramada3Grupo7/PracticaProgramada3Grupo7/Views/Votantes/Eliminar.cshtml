@@ -1,0 +1,97 @@
+@model PracticaProgramada3Grupo7.Models.VotanteViewModel
+
+@{
+    ViewData["Title"] = "Eliminar votante";
+}
+
+<div class="form-page">
+
+    <div class="form-card delete-card">
+
+        <span class="page-eyebrow">
+            Confirmación
+        </span>
+
+        <h1>Eliminar votante</h1>
+
+        @if (Model.YaVoto)
+        {
+        <div class="alert alert-warning">
+            Este votante ya registró su voto y no puede eliminarse.
+        </div>
+
+        <div class="delete-summary">
+
+            <strong>
+                @Model.Nombre
+                @Model.PrimerApellido
+                @Model.SegundoApellido
+            </strong>
+
+            <span>
+                Cédula: @Model.Cedula
+            </span>
+
+        </div>
+
+        <div class="form-actions">
+
+            <a asp-controller="Votantes"
+               asp-action="Index"
+               class="btn btn-primary">
+                Regresar
+            </a>
+
+        </div>
+        }
+        else
+        {
+        <p>
+            ¿Está segura de que desea eliminar este votante?
+        </p>
+
+        <div class="delete-summary">
+
+            <strong>
+                @Model.Nombre
+                @Model.PrimerApellido
+                @Model.SegundoApellido
+            </strong>
+
+            <span>
+                Cédula: @Model.Cedula
+            </span>
+
+        </div>
+
+        <form asp-controller="Votantes"
+              asp-action="Eliminar"
+              asp-route-id="@Model.Id"
+              method="post">
+
+            @Html.AntiForgeryToken()
+
+            <input asp-for="Id"
+                   type="hidden" />
+
+            <div class="form-actions">
+
+                <a asp-controller="Votantes"
+                   asp-action="Index"
+                   class="btn btn-light">
+                    Cancelar
+                </a>
+
+                <button type="submit"
+                        class="btn btn-danger">
+                    Sí, eliminar
+                </button>
+
+            </div>
+
+        </form>
+        }
+
+    </div>
+
+</div>

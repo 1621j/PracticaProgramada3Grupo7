@@ -1,8 +1,136 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section class="home-hero">
+
+    <div class="home-hero-content">
+
+        <span class="page-eyebrow">
+            Sistema electoral
+        </span>
+
+        <h1>
+            Sistema de Votación Nacional
+        </h1>
+
+        <p>
+            Administre votantes, partidos políticos,
+            registre votos y consulte los resultados electorales.
+        </p>
+
+        <div class="home-actions">
+
+            <a asp-controller="Votacion"
+               asp-action="Index"
+               class="btn btn-primary btn-lg">
+                Realizar votación
+            </a>
+
+            <a asp-controller="Votacion"
+               asp-action="Resultados"
+               class="btn btn-light btn-lg">
+                Ver resultados
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="home-options">
+
+    <a asp-controller="Votantes"
+       asp-action="Index"
+       class="home-card">
+
+        <span class="home-card-number">
+            01
+        </span>
+
+        <h2>
+            Votantes
+        </h2>
+
+        <p>
+            Registre, edite, consulte y elimine
+            la información de los votantes.
+        </p>
+
+        <span class="home-card-link">
+            Administrar votantes →
+        </span>
+
+    </a>
+
+    <a asp-controller="PartidosPoliticos"
+       asp-action="Index"
+       class="home-card">
+
+        <span class="home-card-number">
+            02
+        </span>
+
+        <h2>
+            Partidos políticos
+        </h2>
+
+        <p>
+            Mantenga actualizada la información
+            de los partidos y candidatos.
+        </p>
+
+        <span class="home-card-link">
+            Administrar partidos →
+        </span>
+
+    </a>
+
+    <a asp-controller="Votacion"
+       asp-action="Index"
+       class="home-card">
+
+        <span class="home-card-number">
+            03
+        </span>
+
+        <h2>
+            Votación
+        </h2>
+
+        <p>
+            Valide la cédula del votante y registre
+            el partido político seleccionado.
+        </p>
+
+        <span class="home-card-link">
+            Registrar voto →
+        </span>
+
+    </a>
+
+    <a asp-controller="Votacion"
+       asp-action="Resultados"
+       class="home-card">
+
+        <span class="home-card-number">
+            04
+        </span>
+
+        <h2>
+            Resultados
+        </h2>
+
+        <p>
+            Consulte la cantidad de votos obtenidos
+            por cada partido político.
+        </p>
+
+        <span class="home-card-link">
+            Consultar resultados →
+        </span>
+
+    </a>
+
+</section>

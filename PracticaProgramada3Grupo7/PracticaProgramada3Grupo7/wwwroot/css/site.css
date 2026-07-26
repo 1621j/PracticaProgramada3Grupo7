@@ -1,22 +1,51 @@
+:root {
+    --primary-color: #17324d;
+    --secondary-color: #315f7d;
+    --accent-color: #d9a441;
+    --background-color: #f4f7fa;
+    --surface-color: #ffffff;
+    --text-color: #1e2933;
+    --muted-color: #6c7782;
+    --border-color: #dbe3ea;
+}
+
 html {
-  font-size: 14px;
+    min-height: 100%;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+    html {
+        font-size: 16px;
+    }
 }
 
 body {
-  margin-bottom: 60px;
+    min-height: 100vh;
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    border-radius: 8px;
+    font-weight: 650;
+}
+
+.btn-primary {
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+}
+
+    .btn-primary:hover,
+    .btn-primary:focus {
+        border-color: var(--secondary-color);
+        background-color: var(--secondary-color);
+    }
+
+.btn-light {
+    border-color: var(--border-color);
+    background-color: #f7f9fb;
+    color: var(--text-color);
 }
