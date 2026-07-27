@@ -6,8 +6,9 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddHttpClient<ApiService>(cliente =>
 {
-    cliente.BaseAddress =
-        new Uri("https://localhost:7086/");
+    // Read API base URL from configuration (appsettings.json / appsettings.Development.json)
+    var apiBase = builder.Configuration["ApiBaseUrl"] ?? "https://localhost:7086/";
+    cliente.BaseAddress = new Uri(apiBase);
 });
 
 var app = builder.Build();

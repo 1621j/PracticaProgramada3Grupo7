@@ -5,9 +5,9 @@ Proyecto desarrollado para el curso Programación Avanzada de la carrera Ingenie
 ## Integrantes
 
 * Heiner Calderón Montero
-* [Nombre del integrante 2]
-* [Nombre del integrante 3]
-* [Nombre del integrante 4]
+* Jessica Porras Canales
+* Alex Felipe Bolaños Alfaro
+* Kendal Salas Gonzalez
 
 ## Repositorio
 

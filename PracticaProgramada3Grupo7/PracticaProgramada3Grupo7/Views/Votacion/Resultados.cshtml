@@ -1,0 +1,78 @@
+@model IEnumerable<PracticaProgramada3Grupo7.Models.ResultadoVotacionViewModel>
+
+@using System.Linq
+
+@{
+    ViewData["Title"] = "Resultados de la votación";
+    var lista = Model?.ToList() ?? new List<PracticaProgramada3Grupo7.Models.ResultadoVotacionViewModel>();
+    var maxPorcentaje = lista.Any() ? lista.Max(x => x.Porcentaje) : 0m;
+}
+
+<div class="page-header">
+
+    <div>
+        <span class="page-eyebrow">Resultados</span>
+
+        <h1>Resultados de la votación</h1>
+
+        <p>Resumen visual de los votos por partido. La barra muestra el porcentaje sobre el total.</p>
+    </div>
+
+    <a asp-action="Index" class="btn btn-primary">Realizar nueva votación</a>
+
+</div>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+<div class="content-card">
+    @if (!lista.Any())
+    {
+        <div class="alert alert-info">No hay resultados disponibles.</div>
+    }
+    else
+    {
+        <div class="row g-3">
+            @foreach (var r in lista)
+            {
+                var isWinner = r.Porcentaje == maxPorcentaje && maxPorcentaje > 0;
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm @(isWinner ? "border-primary" : "")">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <div>
+                                    <h5 class="card-title mb-0">@r.NombrePartido <small class="text-muted">(@r.Siglas)</small></h5>
+                                    <small class="text-muted">@r.Candidato</small>
+                                </div>
+                                <div class="text-end">
+                                    <span class="badge @(isWinner ? "bg-primary" : "bg-secondary")">@r.CantidadVotos</span>
+                                </div>
+                            </div>
+
+                            <div class="mb-2">
+                                <div class="progress" style="height:18px;">
+                                    <div class="progress-bar @(isWinner ? "bg-primary" : "bg-info")" role="progressbar" style="width: @(r.Porcentaje)%" aria-valuenow="@(r.Porcentaje)" aria-valuemin="0" aria-valuemax="100">
+                                        @r.Porcentaje.ToString("0.00")%
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-auto">
+                                @if (isWinner)
+                                {
+                                    <small class="text-success">Líder actual</small>
+                                }
+                                else
+                                {
+                                    <small class="text-muted">—</small>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

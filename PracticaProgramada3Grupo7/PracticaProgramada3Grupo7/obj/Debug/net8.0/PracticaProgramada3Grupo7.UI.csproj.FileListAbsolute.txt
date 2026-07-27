@@ -32,3 +32,38 @@ C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaP
 C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\PracticaProgramada3Grupo7.UI.pdb
 C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\PracticaProgramada3Grupo7.UI.genruntimeconfig.cache
 C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\ref\PracticaProgramada3Grupo7.UI.dll
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\bin\Debug\net8.0\appsettings.json
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\bin\Debug\net8.0\PracticaProgramada3Grupo7.UI.staticwebassets.runtime.json
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\bin\Debug\net8.0\PracticaProgramada3Grupo7.UI.staticwebassets.endpoints.json
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\bin\Debug\net8.0\PracticaProgramada3Grupo7.UI.exe
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\bin\Debug\net8.0\PracticaProgramada3Grupo7.UI.deps.json
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\bin\Debug\net8.0\PracticaProgramada3Grupo7.UI.runtimeconfig.json
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\bin\Debug\net8.0\PracticaProgramada3Grupo7.UI.dll
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\bin\Debug\net8.0\PracticaProgramada3Grupo7.UI.pdb
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\PracticaProgramada3Grupo7.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\PracticaProgramada3Grupo7.UI.AssemblyInfoInputs.cache
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\PracticaProgramada3Grupo7.UI.AssemblyInfo.cs
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\PracticaProgramada3Grupo7.UI.csproj.CoreCompileInputs.cache
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\PracticaProgramada3Grupo7.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\PracticaProgramada3Grupo7.UI.RazorAssemblyInfo.cache
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\PracticaProgramada3Grupo7.UI.RazorAssemblyInfo.cs
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\PracticaProgramada3Grupo7.UI.sourcelink.json
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\scopedcss\bundle\PracticaProgramada3Grupo7.UI.styles.css
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\scopedcss\projectbundle\PracticaProgramada3Grupo7.UI.bundle.scp.css
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\PracticaProgramada3Grupo7.UI.dll
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\refint\PracticaProgramada3Grupo7.UI.dll
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\PracticaProgramada3Grupo7.UI.pdb
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\PracticaProgramada3Grupo7.UI.genruntimeconfig.cache
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\obj\Debug\net8.0\ref\PracticaProgramada3Grupo7.UI.dll
