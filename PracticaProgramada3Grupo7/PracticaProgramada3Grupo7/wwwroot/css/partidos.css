@@ -1,0 +1,57 @@
+.party-acronym {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 58px;
+    padding: 7px 11px;
+    border-radius: 9px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+}
+
+.party-acronym-large {
+    width: fit-content;
+    min-width: 76px;
+    padding: 10px 16px;
+    font-size: 1rem;
+}
+
+.party-description {
+    max-width: 420px;
+    margin-top: 5px;
+    color: var(--muted-color);
+    font-size: 0.86rem;
+    line-height: 1.45;
+}
+
+.form-group-full {
+    grid-column: 1 / -1;
+}
+
+.party-uppercase {
+    text-transform: uppercase;
+}
+
+.character-counter {
+    color: var(--muted-color);
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+.party-delete-summary {
+    border-left-color: var(--accent-color);
+    background-color: #fff9eb;
+}
+
+@media (max-width: 767px) {
+    .form-group-full {
+        grid-column: auto;
+    }
+
+    .party-description {
+        max-width: none;
+    }
+}

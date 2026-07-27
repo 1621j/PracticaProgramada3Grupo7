@@ -1,0 +1,153 @@
+@model IEnumerable<PracticaProgramada3Grupo7.Models.VotanteViewModel>
+
+    @{
+    ViewData["Title"] = "Votantes";
+    }
+
+    <div class="page-header">
+
+        <div>
+            <span class="page-eyebrow">
+                Administración electoral
+            </span>
+
+            <h1>Votantes</h1>
+
+            <p>
+                Administre las personas inscritas para votar.
+            </p>
+        </div>
+
+        <a asp-controller="Votantes"
+           asp-action="Crear"
+           class="btn btn-primary">
+            Registrar votante
+        </a>
+
+    </div>
+
+    @if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Mensaje"]
+    </div>
+}
+
+    @if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+
+    @if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+
+    <div class="content-card">
+
+        <div class="table-responsive">
+
+            <table class="table app-table">
+
+                <thead>
+                    <tr>
+                        <th>Cédula</th>
+                        <th>Nombre completo</th>
+                        <th>Estado</th>
+                        <th>Votación</th>
+                        <th class="text-end">
+                            Acciones
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    @if (Model == null || !Model.Any())
+                {
+                    <tr>
+                        <td colspan="5"
+                            class="empty-state">
+                            No hay votantes registrados.
+                        </td>
+                    </tr>
+                }
+                else
+                {
+                    foreach (var votante in Model)
+                    {
+                    <tr>
+
+                        <td>
+                            @votante.Cedula
+                        </td>
+
+                        <td>
+                            @votante.Nombre
+                            @votante.PrimerApellido
+                            @votante.SegundoApellido
+                        </td>
+
+                        <td>
+                            @if (votante.EstaActivo)
+                                {
+                            <span class="status status-active">
+                                Activo
+                            </span>
+                                }
+                                else
+                                {
+                            <span class="status status-inactive">
+                                Inactivo
+                            </span>
+                                }
+                        </td>
+
+                        <td>
+                            @if (votante.YaVoto)
+                                {
+                            <span class="status status-voted">
+                                Ya votó
+                            </span>
+                                }
+                                else
+                                {
+                            <span class="status status-pending">
+                                Pendiente
+                            </span>
+                                }
+                        </td>
+
+                        <td class="text-end action-buttons">
+
+                            <a asp-controller="Votantes"
+                               asp-action="Editar"
+                               asp-route-id="@votante.Id"
+                               class="btn btn-sm btn-outline-primary">
+                                Editar
+                            </a>
+
+                            <a asp-controller="Votantes"
+                               asp-action="Eliminar"
+                               asp-route-id="@votante.Id"
+                               class="btn btn-sm btn-outline-danger">
+                                Eliminar
+                            </a>
+
+                        </td>
+
+                    </tr>
+                    }
+                }
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>

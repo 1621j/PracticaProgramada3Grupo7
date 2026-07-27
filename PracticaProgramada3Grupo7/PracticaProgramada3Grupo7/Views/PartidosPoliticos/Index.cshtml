@@ -1,0 +1,152 @@
+@model IEnumerable<PracticaProgramada3Grupo7.Models.PartidoPoliticoViewModel>
+
+    @{
+    ViewData["Title"] = "Partidos políticos";
+    }
+
+    <div class="page-header">
+
+        <div>
+            <span class="page-eyebrow">
+                Administración electoral
+            </span>
+
+            <h1>Partidos políticos</h1>
+
+            <p>
+                Administre los partidos y candidatos participantes.
+            </p>
+        </div>
+
+        <a asp-controller="PartidosPoliticos"
+           asp-action="Crear"
+           class="btn btn-primary">
+            Registrar partido
+        </a>
+
+    </div>
+
+    @if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Mensaje"]
+    </div>
+}
+
+    @if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+
+    @if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+
+    <div class="content-card">
+
+        <div class="table-responsive">
+
+            <table class="table app-table">
+
+                <thead>
+                    <tr>
+                        <th>Siglas</th>
+                        <th>Partido</th>
+                        <th>Candidato</th>
+                        <th>Estado</th>
+                        <th class="text-end">
+                            Acciones
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    @if (Model == null || !Model.Any())
+                {
+                    <tr>
+                        <td colspan="5"
+                            class="empty-state">
+                            No hay partidos políticos registrados.
+                        </td>
+                    </tr>
+                }
+                else
+                {
+                    foreach (var partido in Model)
+                    {
+                    <tr>
+
+                        <td>
+                            <span class="party-acronym">
+                                @partido.Siglas
+                            </span>
+                        </td>
+
+                        <td>
+                            <strong>
+                                @partido.Nombre
+                            </strong>
+
+                            @if (!string.IsNullOrWhiteSpace(
+                                    partido.Descripcion))
+                                {
+                            <div class="party-description">
+                                @partido.Descripcion
+                            </div>
+                                }
+                        </td>
+
+                        <td>
+                            @partido.Candidato
+                        </td>
+
+                        <td>
+                            @if (partido.EstaActivo)
+                                {
+                            <span class="status status-active">
+                                Activo
+                            </span>
+                                }
+                                else
+                                {
+                            <span class="status status-inactive">
+                                Inactivo
+                            </span>
+                                }
+                        </td>
+
+                        <td class="text-end action-buttons">
+
+                            <a asp-controller="PartidosPoliticos"
+                               asp-action="Editar"
+                               asp-route-id="@partido.Id"
+                               class="btn btn-sm btn-outline-primary">
+                                Editar
+                            </a>
+
+                            <a asp-controller="PartidosPoliticos"
+                               asp-action="Eliminar"
+                               asp-route-id="@partido.Id"
+                               class="btn btn-sm btn-outline-danger">
+                                Eliminar
+                            </a>
+
+                        </td>
+
+                    </tr>
+                    }
+                }
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
