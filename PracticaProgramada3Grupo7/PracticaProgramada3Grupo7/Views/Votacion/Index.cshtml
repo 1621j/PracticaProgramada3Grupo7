@@ -1,0 +1,108 @@
+
+@model PracticaProgramada3Grupo7.Models.RegistrarVotoViewModel
+
+@{
+    ViewData["Title"] = "Votación";
+}
+
+<div class="page-header">
+    <div>
+        <span class="page-eyebrow">Realizar votación</span>
+        <h1>Votación</h1>
+        <p>Ingrese la cédula del votante y seleccione el partido de su preferencia. La validación se realiza automáticamente.</p>
+    </div>
+    <a asp-action="Resultados" class="btn btn-primary">Ver resultados</a>
+</div>
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success">@TempData["Mensaje"]</div>
+}
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+<div class="content-card">
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <form asp-action="Index" method="post">
+
+                <div class="row g-3 align-items-end mb-3">
+                    <div class="col-md-6">
+                        <label asp-for="Cedula" class="form-label">Cédula</label>
+                        <div class="input-group">
+                            <span class="input-group-text">ID</span>
+                            <input asp-for="Cedula" 
+                                   class="form-control" 
+                                   inputmode="numeric"
+                                   maxlength="9"
+                                   autocomplete="off"
+                                   oninput="this.value = this.value.replace(/[^0-9]/g, '');"
+                                   placeholder="Ejemplo: 101230456" />
+                        </div>
+                        <small class="form-help">
+                            Digite 9 números, sin guiones ni espacios.
+                        </small><br />
+                        <span asp-validation-for="Cedula" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6 text-end">
+                        <button type="submit" class="btn btn-primary btn-lg">Votar</button>
+                    </div>
+                </div>
+
+                <hr />
+
+                <div>
+                    <label class="form-label">Partido político</label>
+
+                    @if (ViewBag.Partidos == null || !((IEnumerable<PracticaProgramada3Grupo7.Models.PartidoPoliticoViewModel>)ViewBag.Partidos).Any())
+                    {
+                        <div class="alert alert-info">No hay partidos disponibles.</div>
+                    }
+                    else
+                    {
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+                            @foreach (var partido in (IEnumerable<PracticaProgramada3Grupo7.Models.PartidoPoliticoViewModel>)ViewBag.Partidos)
+                            {
+                                <div class="col">
+                                    <label class="card h-100 mb-0" for="partido_@partido.Id" style="cursor:pointer;">
+                                        <div class="card-body d-flex flex-column">
+                                            <div class="d-flex justify-content-between align-items-start">
+                                                <div>
+                                                    <h5 class="card-title mb-1">@partido.Nombre</h5>
+                                                    <small class="text-muted">@partido.Siglas</small>
+                                                </div>
+                                                <div>
+                                                    <input class="form-check-input mt-1" type="radio" id="partido_@partido.Id" name="PartidoPoliticoId" value="@partido.Id" style="transform:scale(1.2);" @(Model.PartidoPoliticoId == partido.Id ? "checked" : String.Empty) />
+                                                </div>
+                                            </div>
+
+                                            <p class="card-text text-muted mt-2">Candidato: <strong>@partido.Candidato</strong></p>
+                                            <div class="mt-auto">
+                                                <span class="badge bg-secondary">@((partido.EstaActivo) ? "Activo" : "Inactivo")</span>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                            }
+                        </div>
+
+                        <span asp-validation-for="PartidoPoliticoId" class="text-danger"></span>
+                    }
+                </div>
+
+                <div class="mt-4 d-flex gap-2">
+                    <a asp-action="Index" class="btn btn-outline-secondary">Limpiar</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

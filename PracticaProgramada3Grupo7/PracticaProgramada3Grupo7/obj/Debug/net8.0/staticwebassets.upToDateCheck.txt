@@ -1,4 +1,8 @@
+wwwroot\css\home.css
+wwwroot\css\layout.css
+wwwroot\css\partidos.css
 wwwroot\css\site.css
+wwwroot\css\votantes.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css

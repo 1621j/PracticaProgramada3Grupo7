@@ -13,3 +13,19 @@ C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaP
 C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.BLL\obj\Debug\net8.0\refint\PracticaProgramada3Grupo7.BLL.dll
 C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.BLL\obj\Debug\net8.0\PracticaProgramada3Grupo7.BLL.pdb
 C:\Progra Avanzada\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.BLL\obj\Debug\net8.0\ref\PracticaProgramada3Grupo7.BLL.dll
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.BLL\bin\Debug\net8.0\PracticaProgramada3Grupo7.BLL.deps.json
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.BLL\bin\Debug\net8.0\PracticaProgramada3Grupo7.BLL.dll
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.BLL\bin\Debug\net8.0\PracticaProgramada3Grupo7.BLL.pdb
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.BLL\bin\Debug\net8.0\PracticaProgramada3Grupo7.DAL.dll
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.BLL\bin\Debug\net8.0\PracticaProgramada3Grupo7.DAL.pdb
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.BLL\obj\Debug\net8.0\PracticaProgramada3Grupo7.BLL.csproj.AssemblyReference.cache
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.BLL\obj\Debug\net8.0\PracticaProgramada3Grupo7.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.BLL\obj\Debug\net8.0\PracticaProgramada3Grupo7.BLL.AssemblyInfoInputs.cache
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.BLL\obj\Debug\net8.0\PracticaProgramada3Grupo7.BLL.AssemblyInfo.cs
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.BLL\obj\Debug\net8.0\PracticaProgramada3Grupo7.BLL.csproj.CoreCompileInputs.cache
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.BLL\obj\Debug\net8.0\PracticaProgramada3Grupo7.BLL.sourcelink.json
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.BLL\obj\Debug\net8.0\Practica.19B62C0D.Up2Date
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.BLL\obj\Debug\net8.0\PracticaProgramada3Grupo7.BLL.dll
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.BLL\obj\Debug\net8.0\refint\PracticaProgramada3Grupo7.BLL.dll
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.BLL\obj\Debug\net8.0\PracticaProgramada3Grupo7.BLL.pdb
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7.BLL\obj\Debug\net8.0\ref\PracticaProgramada3Grupo7.BLL.dll

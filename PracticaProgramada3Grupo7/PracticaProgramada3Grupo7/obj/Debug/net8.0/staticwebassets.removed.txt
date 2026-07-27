@@ -1,0 +1,4 @@
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\wwwroot\css\home.css
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\wwwroot\css\layout.css
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\wwwroot\css\partidos.css
+C:\Users\afba2\source\repos\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\PracticaProgramada3Grupo7\wwwroot\css\votantes.css
