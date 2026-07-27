@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PracticaProgramada3Grupo7.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e069568357c71f66c36ab317e55b1d2bbba0ec59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+287892f51725b9d256a0f07c50cf4c825173056d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PracticaProgramada3Grupo7.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PracticaProgramada3Grupo7.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
